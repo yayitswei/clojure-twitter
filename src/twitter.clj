@@ -1,5 +1,5 @@
 (ns twitter
-  (:use [clojure.contrib.json :only [read-json]]
+  (:use [clojure.contrib.json]
         [clojure.contrib.java-utils :only [as-str]])
   (:require [clojure.set :as set]
             [clojure.string :as string]
